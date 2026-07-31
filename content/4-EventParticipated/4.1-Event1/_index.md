@@ -98,10 +98,5 @@ Attending the **"From First Cloud AI Journey to AWS Partner"** FCAJ Meetup gave 
 - The advice on learning priorities gave me a concrete checklist to follow rather than vague motivation.
 - The reminder to ask "why" before "how" is directly applicable to my own project and internship work.
 
-#### Some event photos
-
-![Attendees following a slide about corporate culture during the FCAJ Meetup](/images/4-Events%20Participated/event1.1.jpg)
-
-![Slide about the practical work of a Data Analytics Engineer at Kamereo and Colgate-Palmolive](/images/4-Events%20Participated/event1.2.jpg)
 
 > Overall, this event helped me move from a vague idea of cloud and data careers to a more realistic understanding of what different roles actually require and how I should continue preparing for them.
