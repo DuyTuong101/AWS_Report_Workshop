@@ -81,6 +81,7 @@ Các trường học, cơ sở y tế hoặc đơn vị quản lý địa phươ
 ### 3. Kiến trúc giải pháp
 
 Hệ thống được thiết kế theo hướng event-driven kết hợp data pipeline. Mỗi thành phần đảm nhiệm một trách nhiệm riêng, giúp việc triển khai, kiểm thử và mở rộng rõ ràng hơn.
+![Sơ đồ kiến trúc hệ thống AQI đầy đủ](/images/aqi_architecture_diagram.png)
 
 #### Luồng xử lý tổng thể
 
