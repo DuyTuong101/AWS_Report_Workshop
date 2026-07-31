@@ -71,10 +71,4 @@ This workshop was the perfect complement to the earlier DevOps session. It gave 
 - It demystified SageMaker: now I see it as simply running a Python script inside a containerized environment exposed via a REST API.
 - The networking section taught me how microservices actually communicate, moving beyond simple URL connections.
 
-#### Some event photos
-
-![Participants checking the Dockerfile example during the workshop](/images/4-Events%20Participated/event2.1.jpg)
-
-![Presentation slide showing the container networking architecture](/images/4-Events%20Participated/event2.2.jpg)
-
 > This event significantly improved my understanding of modern application deployment and made me more aware of the underlying infrastructure my ML models rely on.
