@@ -82,7 +82,7 @@ Schools, healthcare facilities, or local administrative units could subscribe to
 ### 3. Solution Architecture
 
 The system follows an event-driven architecture combined with a structured data pipeline. Each component has a clear responsibility, making implementation, testing, and future scaling easier to manage.
-(/images/aqi_architecture_diagram.png)
+(/images/drawmapAWS.png)
 #### End-to-End Processing Flow
 
 1. A Python simulator reads historical data from OpenAQ and simulates multiple monitoring stations.
