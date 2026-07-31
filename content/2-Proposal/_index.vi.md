@@ -7,8 +7,6 @@ pre: " <b> 2. </b> "
 ---
 
 
-Phần này tóm tắt đề tài nhóm dự kiến triển khai trong thời gian thực tập, bao gồm bối cảnh bài toán, kiến trúc hệ thống, lộ trình thực hiện, ngân sách và rủi ro chính.
-
 # Local AQI Forecasting & Alert System
 ## Hệ thống dự báo và cảnh báo ô nhiễm không khí cục bộ trên AWS
 
