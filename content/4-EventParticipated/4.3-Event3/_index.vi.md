@@ -70,10 +70,6 @@ AWS Knowledge Battle không chỉ là một cuộc đố vui thú vị. Nó là 
 - Môi trường cạnh tranh rất hiệu quả để củng cố kiến thức.
 - Nó đã giúp tôi bước ra khỏi "vùng ML" của mình và nhận ra tầm quan trọng của hạ tầng nền tảng như VPC, Load Balancer và Security Groups.
 
-#### Một số hình ảnh sự kiện
 
-![Các nhóm thảo luận và trả lời câu hỏi đố vui trong trận chiến kiến thức](/images/4-Events%20Participated/event3.1.jpg)
-
-![Bảng điểm hiển thị kết quả của cuộc thi giữa các nhóm](/images/4-Events%20Participated/event3.2.jpg)
 
 > Sự kiện này đã nhắc nhở tôi rằng một Kỹ sư ML giỏi không chỉ biết mô hình—họ còn hiểu hạ tầng mà mô hình dựa vào.
