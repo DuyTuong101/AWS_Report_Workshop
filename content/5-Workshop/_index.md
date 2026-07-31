@@ -6,9 +6,6 @@ chapter: false
 pre: " <b> 5. </b> "
 ---
 
-{{% notice info %}}
-This section is the **main technical project** of the report. It is organized by team role so it matches both the real implementation split and the final end-to-end demo flow.
-{{% /notice %}}
 
 # Workshop for deploying the Local AQI Forecasting & Alert System on AWS
 
