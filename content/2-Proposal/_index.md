@@ -82,7 +82,7 @@ Schools, healthcare facilities, or local administrative units could subscribe to
 ### 3. Solution Architecture
 
 The system follows an event-driven architecture combined with a structured data pipeline. Each component has a clear responsibility, making implementation, testing, and future scaling easier to manage.
-![Overall project architecture](images/2-Proposal/drawmapAWS.png)
+![Overall project architecture](https://duytuong101.github.io/AWS_Report_Workshop/images/drawmapAWS.png)
 #### End-to-End Processing Flow
 
 1. A Python simulator reads historical data from OpenAQ and simulates multiple monitoring stations.
