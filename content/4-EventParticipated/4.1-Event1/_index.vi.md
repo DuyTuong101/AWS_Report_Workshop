@@ -98,10 +98,6 @@ Tham dự **"Từ First Cloud AI Journey đến AWS Partner"** FCAJ Meetup đã 
 - Lời khuyên về các ưu tiên học tập đã cho tôi một danh sách kiểm tra cụ thể để làm theo thay vì động lực mơ hồ.
 - Lời nhắc "tại sao" trước "như thế nào" có thể áp dụng trực tiếp vào dự án và công việc thực tập của chính tôi.
 
-#### Một số hình ảnh sự kiện
 
-![Người tham dự theo dõi slide về văn hóa doanh nghiệp trong buổi FCAJ Meetup](/images/4-Events%20Participated/event1.1.jpg)
-
-![Slide về công việc thực tế của một Data Analytics Engineer tại Kamereo và Colgate-Palmolive](/images/4-Events%20Participated/event1.2.jpg)
 
 > Tổng thể, sự kiện này đã giúp tôi đi từ một ý tưởng mơ hồ về nghề nghiệp cloud và dữ liệu đến một sự hiểu biết thực tế hơn về những gì các vai trò khác nhau thực sự yêu cầu và tôi nên tiếp tục chuẩn bị cho chúng như thế nào.
