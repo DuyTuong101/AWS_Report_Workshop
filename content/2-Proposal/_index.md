@@ -7,7 +7,6 @@ pre: " <b> 2. </b> "
 ---
 
 
-This section summarizes the team project planned for the internship period, including the problem context, system architecture, implementation roadmap, budget considerations, and major risks.
 
 # Local AQI Forecasting & Alert System
 ## A local air quality forecasting and alerting system on AWS
