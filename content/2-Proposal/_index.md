@@ -5,9 +5,7 @@ weight: 2
 chapter: false
 pre: " <b> 2. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Note:** The information below presents the planned scope and implementation approach of the project. The architecture, cost estimates, and technical details may continue to be refined during implementation and testing.
-{{% /notice %}}
+
 
 This section summarizes the team project planned for the internship period, including the problem context, system architecture, implementation roadmap, budget considerations, and major risks.
 
