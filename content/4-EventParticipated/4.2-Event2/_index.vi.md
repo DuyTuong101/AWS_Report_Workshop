@@ -71,10 +71,6 @@ Hội thảo này là sự bổ sung hoàn hảo cho buổi DevOps trước đó
 - Nó đã làm sáng tỏ SageMaker: bây giờ tôi thấy nó chỉ là việc chạy một script Python bên trong một môi trường container hóa được phơi ra qua REST API.
 - Phần về mạng đã dạy tôi cách các microservices thực sự giao tiếp, vượt xa các kết nối URL đơn giản.
 
-#### Một số hình ảnh sự kiện
 
-![Người tham dự kiểm tra ví dụ Dockerfile trong hội thảo](/images/4-Events%20Participated/event2.1.jpg)
-
-![Slide trình bày về kiến trúc mạng container](/images/4-Events%20Participated/event2.2.jpg)
 
 > Sự kiện này đã cải thiện đáng kể sự hiểu biết của tôi về triển khai ứng dụng hiện đại và làm tôi nhận thức rõ hơn về hạ tầng cơ bản mà các mô hình ML của tôi dựa vào.
