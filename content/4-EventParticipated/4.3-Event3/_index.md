@@ -70,10 +70,6 @@ The AWS Knowledge Battle was much more than a fun quiz. It was a perfect summary
 - The competitive environment was highly effective for consolidating knowledge.
 - It helped me step out of my "ML silo" and recognize the importance of foundational infrastructure like VPCs, Load Balancers, and Security Groups.
 
-#### Some event photos
 
-![Teams discussing and answering quiz questions during the Knowledge Battle](/images/4-Events%20Participated/event3.1.jpg)
-
-![Scoreboard showing the results of the inter-group competition](/images/4-Events%20Participated/event3.2.jpg)
 
 > This event reminded me that a good ML Engineer doesn't just know the model—they also understand the infrastructure it relies on.
