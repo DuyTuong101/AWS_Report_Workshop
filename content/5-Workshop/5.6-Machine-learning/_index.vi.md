@@ -1,7 +1,7 @@
 ---
 title : "ML Component: PM2.5 Time-Series Forecasting with Amazon SageMaker DeepAR"
 date : 2026-07-31
-weight : 4
+weight : 6
 chapter : false
 pre : " <b> 5.6. </b> "
 ---
