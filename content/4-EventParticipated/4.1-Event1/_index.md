@@ -1,11 +1,5 @@
 
----
 
-#### Sự kiện 2: Tech Tools & Containerization Workshop
-
-**File: `content/events/4.2-Event2/_index.md` (Tiếng Anh)**
-```markdown
----
 title: "Event 2: Tech Tools & Containerization Workshop"
 date: 2026-06-13
 weight: 1
