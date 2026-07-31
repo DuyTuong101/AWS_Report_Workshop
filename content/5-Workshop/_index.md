@@ -1,9 +1,9 @@
 ---
 title: "Workshop"
 date: 2026-07-31
-weight: 9
+weight: 1
 chapter: false
-pre: " <b> 5.9. </b> "
+pre: " <b> 5. </b> "
 ---
 
 {{% notice info %}}
