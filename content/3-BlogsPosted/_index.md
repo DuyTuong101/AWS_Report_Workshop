@@ -6,17 +6,15 @@ chapter: false
 pre: " <b> 3. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
-This section will list and introduce the blogs you have posted to [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj). For example:
+This section will list and introduce the blogs you have posted to [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj). These are practical articles focusing on cloud cost management and building reproducible MLOps pipelines.
 
-###  [Blog 1 - SESSION POLICIES IN AMAZON EKS POD IDENTITY](3.1-Blog1/)
-This blog introduces the newly added session policies feature in Amazon EKS Pod Identity, which allows you to narrow IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+###  [Blog 1 - Optimizing AWS Costs: A Practical Guide with Budgets and Savings Plans](3.1-Blog1/)
+This blog introduces key strategies for managing and reducing AWS costs. It covers how to set up AWS Budgets to track spending, receive alerts, and leverage Savings Plans and Reserved Instances for predictable workloads. Additionally, it provides practical tips for identifying and cleaning up idle resources like unattached EBS volumes or unused Elastic IPs, ensuring you only pay for what you actually use.
 
-###  [Blog 2 - ...](3.2-Blog2/)
-This blog introduces the newly added session policies feature in Amazon EKS Pod Identity, which allows you to narrow IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+###  [Blog 2 - Building a Simple MLOps Pipeline with SageMaker Projects](3.2-Blog2/)
+This blog walks through the fundamentals of MLOps using Amazon SageMaker Projects and CodePipeline. It explains how to automate the entire ML lifecycle, from data preprocessing and model training to automatic deployment. It also covers how to integrate testing steps, such as model quality checks and unit tests, into the pipeline to ensure reproducibility and reliability before deploying models to production.
 
-###  [Blog 3 - ...](3.3-Blog3/)
-This blog introduces the newly added session policies feature in Amazon EKS Pod Identity, which allows you to narrow IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+---
+
+**Note for further blogs:** As I continue my journey with the First Cloud AI Journey program, I plan to share more hands-on experiences, including deep dives into SageMaker Feature Store, optimizing DeepAR hyperparameters, and monitoring CloudWatch for AI models.
