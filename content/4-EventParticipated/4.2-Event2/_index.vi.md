@@ -1,60 +1,80 @@
-
-**File: `content/events/4.1-Event1/_index.vi.md` (Tiếng Việt)**
-```markdown
 ---
-title: "Sự kiện 1: Chia sẻ lộ trình DevOps"
-date: 2026-06-06
-weight: 1
+title: "Sự kiện 2"
+date: 2026-06-20
+weight: 2
 chapter: false
-pre: " <b> 4.1. </b> "
+pre: " <b> 4.2. </b> "
 ---
 
-# Bài thu hoạch sự kiện Chia sẻ lộ trình DevOps: Từ IT Helpdesk đến DevOps tại các tập đoàn lớn
+# Báo cáo tóm tắt: "Hội thảo về Công cụ kỹ thuật & Container hóa" - Lựa chọn công cụ phù hợp với từng vai trò
 
-### Mục Đích Của Sự Kiện
+### Mục tiêu sự kiện
 
-- Chia sẻ hành trình nghề nghiệp chuyển đổi từ vị trí IT Helpdesk truyền thống lên vị trí Kỹ sư DevOps cấp cao tại các doanh nghiệp lớn.
-- Giải thích các kỹ năng thiết yếu, sự thay đổi tư duy và các công cụ kỹ thuật cần thiết để thành công trong lĩnh vực DevOps.
-- Cung cấp cho sinh viên và thực tập sinh cái nhìn tổng quan về bối cảnh vận hành IT hiện đại và tầm quan trọng của tự động hóa.
+- Hiểu rõ các chuỗi công cụ phù hợp với các vai trò khác nhau trong một nhóm phát triển phần mềm hiện đại (Nhà phát triển, Kỹ sư vận hành, Kỹ sư Dữ liệu/ML).
+- Cung cấp kiến thức thực hành sâu về các khái niệm Container hóa, cụ thể là Docker.
+- Giải thích các khái niệm cơ bản về mạng container và điều phối để chuẩn bị cho người tham dự triển khai các ứng dụng có khả năng mở rộng.
 
-### Danh Sách Diễn Giả Và Nội Dung Trình Bày
+### Diễn giả
 
-- **Diễn giả:** Một chuyên gia IT dày dặn kinh nghiệm với hơn 10 năm làm việc, hiện đang lãnh đạo một nhóm DevOps tại một tổ chức tài chính lớn.
-- **Nội dung tổng quan:**
-    - Khởi đầu sự nghiệp: Sửa chữa phần cứng và hỗ trợ người dùng cuối tại helpdesk.
-    - Lộ trình tự học: Chuyển từ các script thủ công sang Infrastructure as Code (IaC).
-    - Tìm hiểu sâu về các công cụ cốt lõi: Docker, Kubernetes, CI/CD pipelines (Jenkins/GitLab CI) và các nhà cung cấp Cloud (AWS, GCP).
-    - Tầm quan trọng của văn hóa "Ops": Sự hợp tác giữa đội phát triển và đội vận hành.
+- **Kiến trúc sư Giải pháp Cấp cao** - AWS (Diễn giả là một kiến trúc sư giàu kinh nghiệm, am hiểu sâu về ứng dụng container hóa và kiến trúc microservices.)
 
----
+### Những điểm nổi bật
 
-## Nội Dung Nổi Bật
+#### Triết lý "Công cụ phù hợp"
 
-### 1. Sự thay đổi tư duy: Từ sửa chữa sang phòng ngừa
+- Diễn giả nhấn mạnh việc chọn công cụ nên dựa trên lĩnh vực vấn đề, không chỉ dựa trên xu hướng thị trường.
+- Một ma trận được trình bày cho thấy các công cụ đề xuất cho từng vai trò: Developers tập trung vào `Node.js/Python`, `npm/pip`, `Git`, `VS Code`; Ops Engineers sử dụng `Terraform`, `Ansible`, `CloudWatch`, `Prometheus`; Data/ML Engineers dựa vào `Python`, `Pandas`, `SageMaker`, `Jupyter`.
+- Thông điệp chính là không nên áp đặt một công cụ duy nhất cho mọi người, mà cần hiểu nhu cầu riêng của từng vai trò.
 
-Diễn giả nhấn mạnh rằng thử thách lớn nhất trong quá trình chuyển đổi không phải là học các công cụ mới, mà là thay đổi tư duy nền tảng.
+#### Hiểu Docker theo các lớp
 
-- **Tư duy Helpdesk:** Phản ứng thụ động. "Chờ đợi sự cố xảy ra, rồi sửa nó."
-- **Tư duy DevOps:** Chủ động. "Xây dựng hệ thống có thể thông báo cho chúng ta trước khi hỏng hóc, và lý tưởng nhất là có thể tự phục hồi."
+- Docker được phân tích thành ba lớp khái niệm:
+    1.  **Image:** Một mẫu chỉ đọc để tạo container, giống như một lớp trong lập trình.
+    2.  **Container:** Một thể hiện có thể chạy của image, tạm thời và biệt lập.
+    3.  **Registry:** Nơi lưu trữ và chia sẻ image (như Docker Hub hoặc Amazon ECR).
+- Một ví dụ `Dockerfile` đơn giản được trình bày để cho thấy tất cả cấu hình được đóng gói, giúp ứng dụng có tính di động 100%.
 
-Ông nhấn mạnh rằng các công ty đang tìm kiếm những kỹ sư có thể nhìn vào một hệ thống và tự hỏi: "Tôi có thể làm gì *hôm nay* để ngăn chặn một sự cố gián đoạn vào *ngày mai*?". Khái niệm về độ tin cậy chủ động này đã gây ấn tượng sâu sắc với tôi.
+#### Mạng Container: Giao tiếp giữa các container
 
-### 2. Lộ trình kỹ thuật: Một cách tiếp cận có cấu trúc
+- Hội thảo bao gồm các khái niệm mạng thiết yếu:
+    - **Port Mapping (`-p 8080:80`)**: Ánh xạ cổng máy chủ đến cổng container để cho phép truy cập từ bên ngoài.
+    - **Bridge Networks (Mặc định)**: Các container có thể giao tiếp với nhau bằng IP, nhưng IP có thể thay đổi.
+    - **Custom Networks**: Cách khuyến nghị để kết nối các container theo tên, đảm bảo giao tiếp ổn định và dễ dự đoán.
+- Một ví dụ cho thấy một script Python có thể giao tiếp với cơ sở dữ liệu MySQL container hóa trên cùng một mạng tùy chỉnh mà không cần mở cổng cơ sở dữ liệu ra thế giới bên ngoài.
 
-Diễn giả đã phác thảo một lộ trình tiến bộ rõ ràng để làm chủ các kỹ năng DevOps:
+### Những bài học rút ra
 
-```text
-Cấp độ 1: Vận hành thủ công
-→ SSH vào server, chạy lệnh, kiểm tra log thủ công.
+#### Hiểu biết kỹ thuật
 
-Cấp độ 2: Scripting & Tự động hóa
-→ Viết script Bash, Python để xử lý các tác vụ lặp đi lặp lại.
+- **Tính bất biến & Khả năng tái tạo:** Container đảm bảo rằng một ứng dụng chạy theo cách giống nhau trên mọi môi trường, điều này rất quan trọng đối với ML.
+- **Hiệu quả:** Container nhẹ hơn nhiều so với Máy ảo vì chúng chia sẻ nhân HĐH của máy chủ.
+- **Nguyên tắc đơn trách nhiệm:** "Một dịch vụ trên mỗi container" là một thực hành tốt cho khả năng mở rộng và bảo trì.
 
-Cấp độ 3: Quản lý cấu hình
-→ Sử dụng Ansible, Terraform để định nghĩa hạ tầng dưới dạng code.
+#### Thách thức của việc Điều phối
 
-Cấp độ 4: Container hóa & Điều phối
-→ Sử dụng Docker để đóng gói, Kubernetes (K8s) để mở rộng và quản lý container.
+- Mặc dù Docker rất tốt để chạy một vài container, việc quản lý hàng trăm container thủ công là một cơn ác mộng.
+- Kubernetes (K8s) được giới thiệu là một nền tảng điều phối xử lý việc khám phá dịch vụ, cân bằng tải, tự động mở rộng và tự phục hồi ở quy mô lớn.
 
-Cấp độ 5: CI/CD & Quan sát toàn diện
-→ Tự động hóa toàn bộ pipeline (Build -> Test -> Deploy) và triển khai giám sát mạnh mẽ (Prometheus, Grafana, CloudWatch).
+### Áp dụng vào công việc
+
+- **SageMaker Containers:** Hiểu rằng các SageMaker training job chạy code của bạn bên trong một môi trường container hóa; kiến thức về container giúp xây dựng custom container cho các framework cụ thể.
+- **Khả năng tái tạo:** Thay vì chỉ chia sẻ file `.ipynb`, hãy cung cấp `Dockerfile` để người khác có thể thiết lập môi trường chính xác.
+- **Model Serving:** Hiểu cách SageMaker Endpoints hoạt động như các web server container hóa (ví dụ: Flask/FastAPI) được phơi ra thông qua port mapping.
+- **Microservices:** Thiết kế hệ thống dưới dạng microservices, cho phép các phần khác nhau được đóng gói và mở rộng độc lập.
+- **Phát triển cục bộ:** Sử dụng Docker Compose để khởi chạy toàn bộ ngăn xếp dữ liệu cục bộ, tránh các vấn đề "chạy được trên máy của tôi".
+
+### Trải nghiệm sự kiện
+
+Hội thảo này là sự bổ sung hoàn hảo cho buổi DevOps trước đó. Nó đã cho tôi nền tảng kỹ thuật để hiểu cách các thế giới "Dev" và "Ops" được kết nối thông qua container.
+
+- Khái niệm `Dockerfile` như một nguồn sự thật duy nhất cho môi trường runtime của ứng dụng là một bước ngoặt.
+- Nó đã làm sáng tỏ SageMaker: bây giờ tôi thấy nó chỉ là việc chạy một script Python bên trong một môi trường container hóa được phơi ra qua REST API.
+- Phần về mạng đã dạy tôi cách các microservices thực sự giao tiếp, vượt xa các kết nối URL đơn giản.
+
+#### Một số hình ảnh sự kiện
+
+![Người tham dự kiểm tra ví dụ Dockerfile trong hội thảo](/images/4-Events%20Participated/event2.1.jpg)
+
+![Slide trình bày về kiến trúc mạng container](/images/4-Events%20Participated/event2.2.jpg)
+
+> Sự kiện này đã cải thiện đáng kể sự hiểu biết của tôi về triển khai ứng dụng hiện đại và làm tôi nhận thức rõ hơn về hạ tầng cơ bản mà các mô hình ML của tôi dựa vào.
