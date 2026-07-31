@@ -402,7 +402,7 @@ Start time: 2018-04-25 17:00:00
 Forecast 48 hours:
 Mean: [9.3060703278, 9.3919620514, 9.3067531586, 9.3091573715, 9.2927675247]...
 ```
-![DeepAR SageMaker Evaluation](/images/deepar_sagemaker_evaluation.png)
+
 ### 4.8 Final Evaluation Results
 
 | Metric | Week 2 Baseline | Week 3 Production | Improvement |
@@ -414,7 +414,7 @@ Mean: [9.3060703278, 9.3919620514, 9.3067531586, 9.3091573715, 9.2927675247]...
 
 #### Evaluation Plot
 
-![DeepAR SageMaker Evaluation](/images/5-Workshop/5.6-Machine-learning/deepar_sagemaker_evaluation.png)
+![DeepAR SageMaker Evaluation](/images/deepar_sagemaker_evaluation.png)
 
 Three-panel evaluation:
 
