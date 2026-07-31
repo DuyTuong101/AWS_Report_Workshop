@@ -5,9 +5,7 @@ weight: 2
 chapter: false
 pre: " <b> 2. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây trình bày phạm vi và kế hoạch dự kiến của dự án. Kiến trúc, chi phí và các thông số kỹ thuật có thể tiếp tục được điều chỉnh trong quá trình triển khai và kiểm thử.
-{{% /notice %}}
+
 
 Phần này tóm tắt đề tài nhóm dự kiến triển khai trong thời gian thực tập, bao gồm bối cảnh bài toán, kiến trúc hệ thống, lộ trình thực hiện, ngân sách và rủi ro chính.
 
