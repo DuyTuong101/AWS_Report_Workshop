@@ -3,7 +3,7 @@ title: "DevOps, Integration & Quality Assurance"
 date: 2026-07-31
 weight: 1
 chapter: true
-pre: "<b>5.4. </b>"
+pre: "<b>5.3. </b>"
 
 ---
 
