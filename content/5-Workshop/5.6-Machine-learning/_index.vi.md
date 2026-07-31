@@ -401,6 +401,7 @@ Start time: 2018-04-25 17:00:00
 Forecast 48 hours:
 Mean: [9.3060703278, 9.3919620514, 9.3067531586, 9.3091573715, 9.2927675247]...
 ```
+![DeepAR SageMaker Evaluation](/image/deepar_sagemaker_evaluation.png)
 
 ### 4.8 Final Evaluation Results
 
