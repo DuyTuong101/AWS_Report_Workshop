@@ -1,33 +1,24 @@
 ---
 title: "Các sự kiện đã tham gia"
-date: 2026-07-25
+date: 2026-06-05
 weight: 4
 chapter: false
 pre: " <b> 4. </b> "
 ---
 
-Trong quá trình thực tập, em đã tham gia hai sự kiện chuyên môn. Mỗi sự kiện mang đến cho em những góc nhìn khác nhau về định hướng nghề nghiệp, kiến thức kỹ thuật, kỹ năng làm việc nhóm và cách triển khai một dự án trong thực tế.
+Trong suốt quá trình thực tập tại chương trình First Cloud AI Journey, tôi đã tích cực tham gia ba sự kiện ý nghĩa do cộng đồng AWS Vietnam và ban tổ chức thực tập triển khai. Dưới đây là chi tiết từng sự kiện, nơi tôi đã ghi lại những bài học chính, hiểu biết kỹ thuật và phản ánh cá nhân.
 
-### [Event 1](4.1-Event1/)
+### [Sự kiện 1: Chia sẻ lộ trình DevOps: Từ IT Helpdesk đến DevOps tại các tập đoàn lớn](4.1-Event1/)  
+**Thời gian:** 09:00 - 11:30, ngày 06/06/2026  
+**Địa điểm:** Tầng 26, Tòa nhà Bitexco, 02 Hai Triệu, Phường Bến Nghé, Quận 1, TP. Hồ Chí Minh  
+**Vai trò:** Người tham dự  
 
-&emsp;**Tên sự kiện:** “From First Cloud AI Journey to AWS Partner” - FCAJ Meetup
+### [Sự kiện 2: Hội thảo về Công cụ kỹ thuật & Container hóa](4.2-Event2/)  
+**Thời gian:** 09:00 - 11:30, ngày 13/06/2026  
+**Địa điểm:** Tầng 26, Tòa nhà Bitexco, 02 Hai Triệu, Phường Bến Nghé, Quận 1, TP. Hồ Chí Minh  
+**Vai trò:** Người tham dự  
 
-&emsp;**Thời gian:** 09:00, ngày 13/06/2026
-
-&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 Hải Triều, phường Sài Gòn, Thành phố Hồ Chí Minh
-
-&emsp;**Vai trò:** Người tham dự
-
-&emsp;**Nội dung chính:** Tìm hiểu hành trình phát triển từ người mới tiếp cận Cloud và AI đến khi tham gia hệ sinh thái AWS Partner, đồng thời lắng nghe các chia sẻ thực tế về học tập, xây dựng kỹ năng và định hướng nghề nghiệp trong lĩnh vực điện toán đám mây.
-
-### [Event 2](4.2-Event2/)
-
-&emsp;**Tên sự kiện:** Capstone Solution Presentation - Agentic AI Build Week và AWS Community Day
-
-&emsp;**Thời gian:** Ngày 25/07/2026
-
-&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 Hải Triều, phường Sài Gòn, Thành phố Hồ Chí Minh
-
-&emsp;**Vai trò:** Người tham dự
-
-&emsp;**Nội dung chính:** Theo dõi các nhóm trình bày giải pháp ứng dụng Agentic AI trên AWS, tìm hiểu cách xác định bài toán, xây dựng MVP, thiết kế kiến trúc, kiểm soát chi phí và chuẩn bị phần demo sản phẩm.
+### [Sự kiện 3: Giao lưu đấu kiến thức AWS giữa các nhóm](4.3-Event3/)  
+**Thời gian:** 09:00 - 11:30, ngày 20/06/2026  
+**Địa điểm:** Tầng 26, Tòa nhà Bitexco, 02 Hai Triệu, Phường Bến Nghé, Quận 1, TP. Hồ Chí Minh  
+**Vai trò:** Người tham dự
